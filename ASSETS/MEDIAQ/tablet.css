@@ -1,0 +1,31 @@
+@media (min-width: 729px) and (max-width: 1280px){
+    body{
+        background-image: url(../IMGS/photos/tablet.webp);
+    }
+
+    header > nav .logo{
+        height: 14vh;
+        width: 18vw;
+    }
+
+    main > section .welcome{
+        margin: 20px;
+    }
+
+    main > section h1{
+        font-size: 3rem;
+
+    }
+
+    main > section span{
+        font-size: 3rem;
+    }
+
+    main > section p{
+        font-size: 1.1rem;
+    }
+
+    main > section img{
+        width: 50vw;
+    }
+}
