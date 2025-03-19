@@ -1,0 +1,9 @@
+@media (min-width: 729px) and (max-width: 1440px){
+    body{
+        background-image: url(/GameWired/assets/imgs/tablet.webp);
+    }
+
+    header > img{
+        height: 9vh;
+    }
+}

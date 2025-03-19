@@ -1,0 +1,8 @@
+@import url(imports/global.css);
+@import url(imports/index.css);
+
+
+/* Responsividade*/
+
+@import url(medias/mobile.css);
+@import url(medias/tablet.css);
