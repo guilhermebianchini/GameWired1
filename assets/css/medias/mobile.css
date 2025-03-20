@@ -5,39 +5,42 @@
         background-image: url(/GameWired/assets/imgs/Mobile.webp);
     }
 
-    header > img{
-        height: 8vh;
-    }
-
-    main > .content > .text-area{
-        width: auto;
-        text-wrap: nowrap;
-        margin: auto 3rem;
-    }
-
-    main > .content h1{
-        font-size: 2.75rem;
-
-    }
-
-    main > .content span{
-        font-size: 2.75rem;
-    }
-
-    main > .content p{
-        font-size: 1rem;
-    }
-
-    main > .content a{
-        font-size: 1rem;
-
-        & button{
-            background-color: #8E5AFF;
-            color: #ffffff;
+    header {
+        & img{
+            height: 8vh;
         }
     }
 
-    main > .content img{
-        visibility: hidden;
+    main {
+        & .content > .text-area{
+            width: auto;
+            text-wrap: nowrap;
+            margin: auto 3rem;
+        }
+
+        & .content h1{
+            font-size: 2.75rem;
+        }
+
+        & .content span{
+            font-size: 2.75rem;
+        }
+
+        & .content p{
+            font-size: 1rem;
+        }
+
+        & .content a{
+            font-size: 1rem;
+
+            & button{
+                background-color: #8E5AFF;
+                color: #ffffff;
+            }
+        }
+
+        & .content img{
+            visibility: hidden;
+        }
     }
 }
