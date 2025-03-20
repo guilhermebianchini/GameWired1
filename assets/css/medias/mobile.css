@@ -1,39 +1,43 @@
-@media (max-width: 728px){
+@media (max-width: 767px){
     body{
-        background-image: url(/GameWired/assets/imgs/Mobile.webp);
+        position: fixed;
         object-fit: cover;
+        background-image: url(/GameWired/assets/imgs/Mobile.webp);
     }
 
     header > img{
         height: 8vh;
     }
 
-    main > .text-area{
-        margin: auto 12vw;
+    main > .content > .text-area{
+        width: auto;
+        text-wrap: nowrap;
+        margin: auto 3rem;
+    }
+
+    main > .content h1{
+        font-size: 2.75rem;
 
     }
 
-    main > .text-area h1{
-        text-wrap: nowrap;
+    main > .content span{
         font-size: 2.75rem;
     }
 
-    main > .text-area span{
-        font-size: 3rem;
-    }
-
-    main > .text-area p{
+    main > .content p{
         font-size: 1rem;
     }
 
-    main > .text-area button{
-        color: #ffffff;
-        background-color: #8E5AFF;
+    main > .content a{
+        font-size: 1rem;
+
+        & button{
+            background-color: #8E5AFF;
+            color: #ffffff;
+        }
     }
 
-
-
-    main > img{
+    main > .content img{
         visibility: hidden;
     }
 }

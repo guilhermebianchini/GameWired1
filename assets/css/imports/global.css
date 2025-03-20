@@ -3,9 +3,9 @@
 }
 
 body{
-    background-color: #000285;
-    background-image: url(/GameWired/assets/imgs/Background.webp);
-    background-repeat: no-repeat;
+    height: 100vh;
     background-size: cover;
-    position: fixed;
+    background-color: #000285;
+    background-repeat: no-repeat;
+    background-image: url(/GameWired/assets/imgs/Background.webp);
 }
