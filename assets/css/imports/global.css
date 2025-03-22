@@ -1,11 +1,15 @@
 *{
     font-family: 'Outfit', 'Fira Code', 'Inter', 'Roboto', 'SF Pro Text';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     height: 100vh;
     background-size: cover;
-    background-color: #000285;
+    background-color: #0400fc;
     background-repeat: no-repeat;
-    background-image: url(/GameWired/assets/imgs/Background.webp);
+    background-image: url(/assets/imgs/Background.webp);
+
 }
