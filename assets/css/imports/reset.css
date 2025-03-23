@@ -1,10 +1,10 @@
-/* Reset básico para normalizar estilos nos navegadores modernos */
-
+*, *::backdrop, *::after{
+    box-sizing: border-box;
+}
 /* Remove margens e paddings padrão */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
 
   /* Melhor renderização de fontes */
@@ -30,7 +30,6 @@
 
   /* Define estilos base para o body */
   body {
-    font-family: Arial, sans-serif;
     line-height: 1.5;
     background-color: #fff;
     color: #333;
@@ -51,10 +50,12 @@
   }
 
   /* Ajusta imagens para não estourarem */
-  img {
+  img, video, canvas, svg, picture {
     max-width: 100%;
     height: auto;
-    display: block;
+    object-fit: cover;
+    vertical-align: middle;
+    background-repeat: no-repeat;
   }
 
   /* Corrige problemas com tabelas */

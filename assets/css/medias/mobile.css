@@ -1,21 +1,73 @@
-@media (max-width: 767px){
+/* 📱 Dispositivos Pequenos */
+@media (max-width: 360px) {
     body{
-        position: fixed;
-        object-fit: cover;
-        background-image: url(/GameWired/assets/imgs/Mobile.webp);
+        background-image: url(/GameWired/assets/imgs/Fundos/MobilePequeno.webp);
+
     }
 
-    header {
-        & img{
-            height: 8vh;
+    main{
+
+        & .content{
+             display: flex;
+             align-items: start;
+             flex-direction: column;
+            justify-content: center;
+        }
+
+        & .content .text-area{
+            width: 100%;
+            padding: 1rem;
+        }
+
+
+        & .content h1{
+            font-size: 2.2rem;
+            text-wrap: nowrap;
+        }
+
+        & .content span{
+            font-size: 2.75rem
+        }
+
+        & .content p {
+            font-size: 0.8rem;
+            text-wrap: nowrap;
+        }
+
+        & .content a{
+            font-size: 1rem;
+
+            & button{
+                color: #ffffff;
+                background-color: #8E5AFF;
+                box-shadow: 1px 2px 3px #00000069;
+            }
+        }
+
+        & .content .img{
+           display: none;
         }
     }
+}
 
-    main {
-        & .content > .text-area{
-            width: auto;
-            text-wrap: nowrap;
-            margin: auto 3rem;
+/* 📲 Celulares Médios */
+@media (max-width: 390px) {
+    body{
+        background-image: url(/GameWired/assets/imgs/Fundos/MobileMedio.webp);
+    }
+
+    main{
+
+        & .content{
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        & .content .text-area{
+            width: 100%;
+            padding: 1rem;
         }
 
         & .content h1{
@@ -23,7 +75,7 @@
         }
 
         & .content span{
-            font-size: 2.75rem;
+            font-size: 3.5rem;
         }
 
         & .content p{
@@ -34,13 +86,62 @@
             font-size: 1rem;
 
             & button{
-                background-color: #8E5AFF;
                 color: #ffffff;
+                background-color: #8E5AFF;
+                box-shadow: 1px 2px 3px #00000069;
             }
         }
 
-        & .content img{
-            visibility: hidden;
+        & .content .img{
+            display: none;
+        }
+    }
+}
+
+/* 📲 Celulares Grandes */
+@media (max-width: 430px) {
+    body{
+        background-image: url(/GameWired/assets/imgs/Fundos/MobileGrande.webp);
+    }
+
+    main{
+
+        & .content{
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        & .content .text-area{
+            width: 100%;
+            padding: 2.5rem;
+        }
+
+        & .content h1{
+            font-size: 2.75rem;
+        }
+
+        & .content span{
+            font-size: 3.5rem;
+        }
+
+        & .content p{
+            font-size: 1rem;
+        }
+
+        & .content a{
+            font-size: 1rem;
+
+            & button{
+                color: #ffffff;
+                background-color: #8E5AFF;
+                box-shadow: 1px 2px 3px #00000069;
+            }
+        }
+
+        & .content .img{
+            display: none;
         }
     }
 }
