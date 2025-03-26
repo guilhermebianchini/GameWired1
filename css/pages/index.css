@@ -1,0 +1,73 @@
+body{
+    background-image: url(../../assets/images/fundos/Fundo.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    width: 100vw;
+
+    & img{
+        height: 12vh;
+    }
+}
+
+main{
+
+    & .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 78vh;
+    }
+
+    & .text-area{
+        text-wrap: nowrap;
+        color: #ffffff;
+        width: 40vw;
+    }
+
+    & .text-area h1{
+        font-weight: 600;
+    }
+    & .text-area span{
+        font-size: 5rem;
+        font-weight: 700;
+    }
+
+    & .text-area p{
+        font-weight: 500;
+    }
+
+    & .text-area a{
+        font-size: 1.125rem;
+
+        & button{
+            width: 116px;
+            height: 39px;
+            margin-top: 1.5vh;
+            color: #ffffff45;
+            border-radius: 50px;
+            background-color: #8E5AFF45;
+            box-shadow: 1px 1.5px 3px #000000;
+
+            &:hover{
+                transform: scale(1.1);
+                transition: 1s;
+                color: #ffffff;
+                background-color: #8E5AFF;
+            }
+        }
+    }
+
+    & .img{
+        display: flex;
+        justify-content: center;
+        width: 35vw;
+
+        & img{
+            height: 60vh;
+        }
+    }
+}

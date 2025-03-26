@@ -1,0 +1,170 @@
+@media (max-width: 884px){
+    header{
+        height: 10vh;
+
+        & img{
+            height: 10vh;
+        }
+    }
+
+    main{
+
+        & .content{
+            justify-content: center;
+            height: 80vh;
+            width: 99.5vw;
+
+        }
+
+        & .text-area{
+            width: 65vw;
+            padding: 0rem 2rem;
+
+        }
+
+        & .text-area h1{
+            text-wrap: nowrap;
+            font-size: 4rem;
+        }
+
+        & .text-area span{
+            font-size: 4rem;
+        }
+
+        & .text-area p{
+            font-size: 1.125rem;
+        }
+
+        & .text-area a{
+            font-size: 1.125rem;
+
+            & button{
+                color: #ffffff;
+                background-color: #8E5AFF;
+            }
+        }
+
+        & .img{
+            display: none;
+
+        }
+    }
+}
+
+
+/* 💻 Tablets Grandes */
+@media (max-width: 834px) {
+    body{
+        background-image: url(../../../assets/images/fundos/Tablet/TabletGrande.webp);
+    }
+
+    header{
+        height: 10vh;
+
+        & img{
+            height: 10vh;
+        }
+    }
+
+    main{
+
+        & .content{
+            justify-content: center;
+            height: 80vh;
+            width: 99.5vw;
+
+        }
+
+        & .text-area{
+            width: 65vw;
+            padding: 0rem 2rem;
+
+        }
+
+        & .text-area h1{
+            text-wrap: nowrap;
+            font-size: 4rem;
+        }
+
+        & .text-area span{
+            font-size: 4rem;
+        }
+
+        & .text-area p{
+            font-size: 1.125rem;
+        }
+
+        & .text-area a{
+            font-size: 1.125rem;
+
+            & button{
+                color: #ffffff;
+                background-color: #8E5AFF;
+            }
+        }
+
+        & .img{
+            display: none;
+
+        }
+    }
+
+}
+
+/* 💻 Tablets Médios */
+@media (max-width: 768px) {
+    body{
+        background-image: url(../../../assets/images/fundos/Tablet/Tablet.webp);
+    }
+
+    header{
+        height: 10vh;
+
+        & img{
+            height: 10vh;
+        }
+    }
+
+    main{
+
+        & .content{
+            justify-content: center;
+            height: 80vh;
+            width: 99.5vw;
+
+        }
+
+        & .text-area{
+            width: 60vw;
+            padding: 0rem 1rem;
+
+        }
+
+        & .text-area h1{
+            text-wrap: nowrap;
+            font-size: 3.5rem;
+        }
+
+        & .text-area span{
+            font-size: 4rem;
+        }
+
+        & .text-area p{
+            font-size: 1.125rem;
+        }
+
+        & .text-area a{
+            font-size: 1.125rem;
+
+            & button{
+                color: #ffffff;
+                background-color: #8E5AFF;
+            }
+        }
+
+        & .img{
+            display: none;
+
+        }
+    }
+}

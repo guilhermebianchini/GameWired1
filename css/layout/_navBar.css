@@ -1,0 +1,38 @@
+header{
+    height: 10vh;
+
+    & nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 20px;
+        height: 10vh;
+        background-color: #000235;
+        color: #ffffff;
+        }
+
+    & .abas a{
+        margin: 0px 30px;
+
+        &:hover{
+            padding: 15px 15px;
+            border-radius: 3.125rem;
+            background-color: #8E5AFF;
+            transform: scale(1);
+            transition: 0.3s;
+        }
+    }
+
+    & .logins a{
+        font-size: 1.125rem;
+        margin: 0px 30px;
+
+        &:hover{
+            padding: 15px 15px;
+            border-radius: 3.125rem;
+            background-color: #8E5AFF;
+            transform: scale(1);
+            transition: 0.3s;
+        }
+    }
+}

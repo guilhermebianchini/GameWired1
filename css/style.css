@@ -1,0 +1,16 @@
+/*Fontes*/
+
+/* Reset e Configurações Globais*/
+@import url('base/_reset.css');
+@import url('base/_global.css');
+
+/* Reutilização de Layouts */
+@import url('layout/_footer.css');
+@import url('layout/_navBar.css');
+
+/*Estilo de Páginas*/
+@import url(pages/index.css);
+@import url('pages/home.css');
+
+/* Rsponsividade (Media Queries) */
+@import url('media/_universal.css');
